@@ -15,9 +15,9 @@ Amplify.configure({
       identityPoolRegion: 'us-east-1',
       userPoolId: 'us-east-1_gW0emGvaU',
       userPoolWebClientId: '3mh4o9mno1ml28l0faal77qv55',
-      mandatorySignIn: false,
-      storage: MyStorage,
-      aws_appsync_authenticationType: "AMAZON_COGNITO_USER_POOLS",
+      aws_appsync_authenticationType: 'AMAZON_COGNITO_USER_POOLS',
+      aws_appsync_graphqlEndpoint: 'https://4yogqyuerzeefnhqhlz4owsysq.appsync-api.us-east-1.amazonaws.com/graphql',
+      aws_appsync_region: 'us-east-1',
       oauth: {
           //domain: 'your_cognito_domain',
           //scope: ['phone', 'email', 'profile', 'openid', 'aws.cognito.signin.user.admin'],
