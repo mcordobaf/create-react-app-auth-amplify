@@ -8,13 +8,11 @@ import aws_exports from './aws-exports';
 Amplify.configure({
   Auth: {
 
-      // REQUIRED only for Federated Authentication - Amazon Cognito Identity Pool ID
-      identityPoolId: 'us-east-1:c470cd15-1c60-4dd9-9cbb-9404a22b2a15',
       // REQUIRED - Amazon Cognito Region
       region: 'us-east-1',
       identityPoolRegion: 'us-east-1',
-      userPoolId: 'us-east-1_gW0emGvaU',
-      userPoolWebClientId: '3mh4o9mno1ml28l0faal77qv55',
+      userPoolId: 'us-east-1_tzMlcOofk',
+      userPoolWebClientId: '2mthnrhoej05c12tfdktsou4l7',
       aws_appsync_authenticationType: 'AMAZON_COGNITO_USER_POOLS',
       aws_appsync_graphqlEndpoint: 'https://4yogqyuerzeefnhqhlz4owsysq.appsync-api.us-east-1.amazonaws.com/graphql',
       aws_appsync_region: 'us-east-1',
